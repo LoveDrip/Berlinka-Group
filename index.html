@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Berlinka Group</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=f1a8fe9e98944b9d682ec5c3efac8f17">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo:400,500,600&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:400,700&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mukta:300,400,500,600,700&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,700&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab&amp;display=swap">
+    <link rel="stylesheet" href="assets/css/styles.min.css?h=e956f1dff6b7bf400722b69a39d010c0">
+</head>
+
+<body>
+    <!-- Start: Header Section -->
+    <header class="header position-relative" style="background: initial;">
+        <div class="d-flex flex-column justify-content-between align-items-center header-menu wrapper-start">
+            <!-- Start: Hamburger Button -->
+            <div><button class="btn p-0" id="btn-menu" type="button" onclick="openNav()"><img src="assets/img/menu-burger%20Middle%201.svg?h=25910fa35aa10357aee080298cf8b3a0" style="width: 40px;height: 40px;"></button></div><!-- End: Hamburger Button -->
+            <!-- Start: Language Switcher -->
+            <div>
+                <ul class="nav nav-tabs flex-column text-capitalize fs-4 fw-light text-center border-0" id="language-switcher">
+                    <li class="nav-item"><a class="nav-link border rounded-0 border-0" href="#">ru</a></li>
+                    <li class="nav-item"><a class="nav-link active border rounded-0 border-0" href="#">en</a></li>
+                    <li class="nav-item"><a class="nav-link border rounded-0 border-0 p-2" href="#">de</a></li>
+                </ul>
+            </div><!-- End: Language Switcher -->
+            <!-- Start: Mice Button -->
+            <div><img style="width: 40px;height: 40px;" src="assets/img/mouse%201.svg?h=2819fe99d98291bcbaba62b3cb6a419c"></div><!-- End: Mice Button -->
+        </div>
+        <div class="wrapper-end">
+            <!-- Start: Logo Section -->
+            <div class="d-flex justify-content-between align-items-center top-logo-bar">
+                <div>
+                    <div class="d-flex align-items-center"><span class="text-white me-4 me-xxl-5" style="font-size: 24px;line-height: 40px;letter-spacing: 0.1em;font-family: Mukta, sans-serif;">001</span>
+                        <div class="d-flex horizontal-line-sm"><span class="d-inline-block"></span></div><span class="text-white ms-4 ms-xxl-5" style="font-size: 24px;line-height: 40px;letter-spacing: 0.1em;font-family: Mukta, sans-serif;">Willkommen bei der Berlinka Group</span>
+                    </div>
+                </div><!-- Start: Logo -->
+                <div><a class="btn site-logo p-0" role="button" href="#"><img src="assets/img/logo.svg?h=f530964dfd3fb427817f76e4e05bdab6"></a></div><!-- End: Logo -->
+            </div><!-- End: Logo Section -->
+            <!-- Start: Hero Heading -->
+            <div class="hero-text-container custom-padding-2">
+                <div class="hero-text">
+                    <!-- Start: Horizontal Line -->
+                    <div class="d-flex align-items-center mb-2" style="margin-bottom: 40px;">
+                        <h2 class="text-uppercase fw-normal text-white mb-0 me-4">AUFBAU EINER</h2>
+                        <div>
+                            <div class="horizontal-line-lg"></div>
+                        </div>
+                    </div><!-- End: Horizontal Line -->
+                    <h1 class="text-uppercase fw-bold text-white mb-5">NEUEN<br>PERSPEKTIVE</h1>
+                    <p class="text-white">Wir verändern den Immobilien-Markt und schaffen daraus Mehrwert für unsere Kunden und Investoren</p>
+                </div>
+            </div><!-- End: Hero Heading -->
+            <!-- Start: Scrolling Down Button --><button class="btn text-uppercase link-light border rounded-0 border-0 d-inline-flex align-items-center" id="btn-scrolling-down" type="button">scrolling<span class="bg-white border rounded-circle border-0 d-inline-block ms-4"></span></button><!-- End: Scrolling Down Button -->
+        </div><video id="myVideo" class="position-absolute" autoplay="" loop="" muted="">
+            <source src="https://dl.dropboxusercontent.com/s/o3onqh6nhc0g9yw/trailer.mp4?dl=0" type="video/mp4">
+        </video>
+    </header><!-- End: Header Section -->
+    <!-- Start: Overlay Menu Section -->
+    <div id="myNav" class="menu-overlay">
+        <div class="menu-overlay-close">
+            <!-- Start: Menu Close Button --><button class="btn p-0" id="btn-menu-close-2" type="button" onclick="closeNav()"><img src="assets/img/cross.svg?h=c9172e9f52632610c168babbd1e42469" style="width: 40px;height: 40px;"></button><!-- End: Menu Close Button -->
+        </div>
+        <div class="menu-overlay-content">
+            <div class="row g-0 row-cols-2 h-100">
+                <!-- Start: Naviagtion Links -->
+                <div class="col">
+                    <ul class="nav nav-tabs flex-column border-0 justify-content-between h-100" id="navbar">
+                        <li class="nav-item"><a class="nav-link text-uppercase link-light border-0 p-0" href="#">home</a></li>
+                        <li class="nav-item"><a class="nav-link text-uppercase link-light border-0 p-0" href="#">Projekte</a></li>
+                        <li class="nav-item"><a class="nav-link text-uppercase link-light border-0 p-0" href="#">Über Uns</a></li>
+                        <li class="nav-item"><a class="nav-link text-uppercase link-light border-0 p-0" href="#">Ankaufsprofil</a></li>
+                        <li class="nav-item"><a class="nav-link text-uppercase link-light border-0 p-0" href="#">Karriere</a></li>
+                        <li class="nav-item"><a class="nav-link text-uppercase link-light border-0 p-0" href="#">Kontakt</a></li>
+                    </ul>
+                </div><!-- End: Naviagtion Links -->
+                <div class="col d-flex flex-column justify-content-between">
+                    <!-- Start: Menu Logo -->
+                    <div class="d-flex justify-content-end"><a class="btn border-0 site-logo p-0" role="button" href="#"><img src="assets/img/logo.svg?h=f530964dfd3fb427817f76e4e05bdab6"></a></div><!-- End: Menu Logo -->
+                    <!-- Start: Menu Contact Section -->
+                    <div>
+                        <div class="d-flex justify-content-between">
+                            <!-- Start: Menu Address -->
+                            <div class="contact-box">
+                                <p class="text-capitalize contact-title mb-3">Anschrift</p>
+                                <p class="text-light contact-subtitle mb-0" style="max-width: 378px;">Landsberger Allee 366, 12681 Berlin</p>
+                            </div><!-- End: Menu Address -->
+                            <!-- Start: Menu Telephone -->
+                            <div class="contact-box mb-0">
+                                <p class="text-capitalize contact-title mb-3">Telefon</p>
+                                <p class="text-light contact-subtitle mb-0">+49 (0) 30 40 36 13 70</p>
+                            </div><!-- End: Menu Telephone -->
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <!-- Start: Menu Email -->
+                            <div class="contact-box mb-0">
+                                <p class="text-capitalize contact-title mb-3">E-mail</p>
+                                <p class="text-light contact-subtitle mb-0">info@berlinka-group.com</p>
+                            </div><!-- End: Menu Email -->
+                            <!-- Start: Menu Fax -->
+                            <div class="contact-box mb-0">
+                                <p class="text-capitalize contact-title mb-3">fax</p>
+                                <p class="text-light contact-subtitle mb-0">+49 (0) 30 40 36 13 799</p>
+                            </div><!-- End: Menu Fax -->
+                        </div>
+                    </div><!-- End: Menu Contact Section -->
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-end menu-overlay-footer"><a class="btn btn-link link-light p-0" role="button" href="#">Impressum &amp; Dateschutz</a></div>
+    </div><!-- End: Overlay Menu Section -->
+    <!-- Start: Main Section -->
+    <main>
+        <!-- Start: Current Project -->
+        <section id="current-project">
+            <!-- Start: Horizontal Line -->
+            <div class="d-flex align-items-center mb-4">
+                <h3 class="text-uppercase fw-normal text-dark mb-0 me-4">aktuelles Projekt</h3>
+                <div>
+                    <div class="horizontal-line-sm"></div>
+                </div>
+            </div><!-- End: Horizontal Line -->
+            <h1 class="text-uppercase fw-bold text-dark">but we always do our best!</h1>
+            <div class="row g-0">
+                <div class="col-1 position-relative"><span class="text-nowrap bg-white text-1-rotate position-absolute px-2">Villa Luisenholf 10</span></div>
+                <div class="col-11">
+                    <div class="position-relative"><img class="w-100 card-container-img" src="assets/img/Rectangle%2010741.png?h=2a173799bab7fb832bf3414c37ac664e"><span class="text-nowrap text-uppercase bg-white shadow position-absolute white-tag">Focus project</span></div>
+                </div>
+            </div>
+        </section><!-- End: Current Project -->
+        <!-- Start: What We Do Section -->
+        <section id="what-we-do">
+            <div class="ps-4 ps-xxl-5">
+                <h1 class="text-uppercase fw-bold mb-4"><sub>was</sub> wir tun</h1>
+                <h4 class="fw-normal">Die Grundstücke und Immobilien kaufen wir aufgrund tiefgreifenden Datenanalysen</h4>
+            </div>
+            <div class="row gy-4 row-cols-2">
+                <div class="col">
+                    <!-- Start: What we do card -->
+                    <div class="bg-white border rounded-0 what-we-do-card h-100">
+                        <div class="mb-4"><img src="assets/img/Group%20241164.svg?h=f56f18d3c8a819b3e71d02f21743aefb"></div>
+                        <h2 class="text-capitalize fw-bold mb-4">Möglichkeiten entdecken</h2>
+                        <p class="fw-light">Wir analysieren den Markt und kaufen Grundstücke oder Grundstücke. Finanzierungspartner werden ermutigt, Kapital aufzunehmen</p>
+                    </div><!-- End: What we do card -->
+                </div>
+                <div class="col">
+                    <!-- Start: What we do card -->
+                    <div class="bg-white border rounded-0 what-we-do-card h-100">
+                        <div class="mb-4"><img src="assets/img/Group%202411641.svg?h=05cb3ad405e091eff6d2341b9872f353"></div>
+                        <h2 class="text-capitalize fw-bold mb-4">Wert steigern</h2>
+                        <p class="fw-light">Nach der Kapitalbeschaffung erarbeiten wir gemeinsam mit dem Architekten ein nachhaltiges, innovatives und modernes Projekt</p>
+                    </div><!-- End: What we do card -->
+                </div>
+                <div class="col">
+                    <!-- Start: What we do card -->
+                    <div class="bg-white border rounded-0 what-we-do-card h-100">
+                        <div class="mb-4"><img src="assets/img/Group%202411642.svg?h=8e6cd395340d9be3cfe2ce86cc92466e"></div>
+                        <h2 class="text-capitalize fw-bold mb-4">Arbeit der höchsten Qualität</h2>
+                        <p class="fw-light">Unterstützt von zuverlässigen Partnern folgen wir einem etablierten Bauprozess</p>
+                    </div><!-- End: What we do card -->
+                </div>
+                <div class="col">
+                    <!-- Start: What we do card -->
+                    <div class="bg-white border rounded-0 what-we-do-card h-100">
+                        <div class="mb-4"><img src="assets/img/Group%202411643.svg?h=11eb3a67562ab31e25969b5ab2eef16b"></div>
+                        <h2 class="text-capitalize fw-bold mb-4">Pünktliche Fertigstellung</h2>
+                        <p class="fw-light">Nach erfolgreichem Abschluss verkaufen wir Immobilien national und international</p>
+                    </div><!-- End: What we do card -->
+                </div>
+            </div>
+        </section><!-- End: What We Do Section -->
+        <!-- Start: Partnership Section -->
+        <section class="bg-dark" id="partnership-section">
+            <h1 class="fw-bold text-white">Partnerschaft</h1>
+            <div id="partnership-card" class="position-relative"><img class="w-100" src="assets/img/Rectangle%2010800.png?h=ffcbf5be583c668b0eac6db6e2f7a6a2">
+                <div class="bg-dark position-absolute partnership-overlay-top">
+                    <h4 class="fw-normal text-white mb-4 mb-xxl-5">Wenn Sie an einer Partnerschaft interessiert sind oder Anregungen haben</h4><a class="btn btn-primary btn-lg border rounded-0 d-inline-flex" role="button" href="#">Kontaktieren Sie uns<img class="ms-3" src="assets/img/phone.svg?h=441726063c38c0e73fafc1485c941bb4"></a>
+                </div>
+                <div class="bg-dark position-absolute partnership-overlay-bottom">
+                    <h4 class="fw-normal text-white mb-4 mb-xxl-5">Wenn Sie an einer Partnerschaft interessiert sind oder Anregungen haben</h4>
+                    <div class="d-flex align-items-center"><a class="btn btn-primary btn-lg border rounded-0 d-inline-flex flex-grow-1 me-2" role="button" href="#">Jahresbericht<img class="ms-2" src="assets/img/import.svg?h=24c70cb0417388222a1e95e74b215515"></a><a class="btn btn-primary btn-lg border rounded-0 d-inline-flex flex-grow-1" role="button" href="#">Firmenpräsentation<img class="ms-2" src="assets/img/import.svg?h=24c70cb0417388222a1e95e74b215515"></a></div>
+                </div>
+            </div>
+        </section><!-- End: Partnership Section -->
+        <!-- Start: projects section -->
+        <section class="bg-dark" id="home-projects">
+            <h2 class="fw-normal text-white">Unsere</h2>
+            <h1 class="fw-bold text-white">Projekte</h1>
+            <div id="out-projects-list">
+                <div class="d-flex">
+                    <div class="our-project-item position-relative"><img src="assets/img/Rectangle%20799.png?h=5bfa924412eee413ac54f70fc4e3a957">
+                        <div class="our-project-head position-absolute"><span class="text-uppercase fw-bold text-white border rounded-0 border-2 border-white d-inline-block">VERKAUFT</span></div>
+                        <div class="our-project-foot position-absolute">
+                            <h4 class="text-capitalize text-white mb-0">Kaiserdamm</h4>
+                            <p class="fw-light text-white mb-0">Wohnung</p>
+                        </div>
+                    </div>
+                    <div class="our-project-item position-relative"><img src="assets/img/Rectangle%20800.png?h=8fb2165385f5695ad814c2650923c598">
+                        <div class="our-project-head position-absolute"><span class="text-uppercase fw-bold text-white border rounded-0 border-2 border-white d-inline-block">In der Umsetzung</span></div>
+                        <div class="our-project-foot position-absolute">
+                            <h4 class="text-capitalize text-white mb-0">Villa Luisenhof 11</h4>
+                            <p class="fw-light text-white mb-0">Villa</p>
+                        </div>
+                    </div>
+                    <div class="our-project-item position-relative"><img src="assets/img/Rectangle%20801.png?h=24938f9ee1a21a0d8e8fe6f1f486da4f">
+                        <div class="our-project-head position-absolute"><span class="text-uppercase fw-bold text-white border rounded-0 border-2 border-white d-inline-block">in PLANUNG</span></div>
+                        <div class="our-project-foot position-absolute">
+                            <h4 class="text-capitalize text-white mb-0">Residenzstrasse 94</h4>
+                            <p class="fw-light text-white mb-0">Residential</p>
+                        </div>
+                    </div>
+                    <div class="our-project-item position-relative"><img src="assets/img/Rectangle%20802.png?h=016d41088a7488ec3085c0345a2ffd4d">
+                        <div class="our-project-head position-absolute"><span class="text-uppercase fw-bold text-white border rounded-0 border-2 border-white d-inline-block">in PLANUNG</span></div>
+                        <div class="our-project-foot position-absolute">
+                            <h4 class="text-capitalize text-white mb-0">Central House</h4>
+                            <p class="fw-light text-white mb-0">Residential</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div class="our-project-item position-relative"><img src="assets/img/Rectangle%20803.png?h=d247e21d0a71039f790e0cd98790457d">
+                        <div class="our-project-head position-absolute"><span class="text-uppercase fw-bold text-white border rounded-0 border-2 border-white d-inline-block">VERKAUFT</span></div>
+                        <div class="our-project-foot position-absolute">
+                            <h4 class="text-capitalize text-white mb-0">Kaiserdamm</h4>
+                            <p class="fw-light text-white mb-0">Wohnung</p>
+                        </div>
+                    </div>
+                    <div class="our-project-item position-relative"><img src="assets/img/Rectangle%20804.png?h=1ac278a2ace2fcfe4c2c648aaf64ba5f">
+                        <div class="our-project-head position-absolute"><span class="text-uppercase fw-bold text-white border rounded-0 border-2 border-white d-inline-block">In der Umsetzung</span></div>
+                        <div class="our-project-foot position-absolute">
+                            <h4 class="text-capitalize text-white mb-0">Villa Luisenhof 11</h4>
+                            <p class="fw-light text-white mb-0">Residential</p>
+                        </div>
+                    </div>
+                    <div class="our-project-item position-relative"><img src="assets/img/Rectangle%20805.png?h=370db189edb5d878282d3b6e95190b43">
+                        <div class="our-project-head position-absolute"><span class="text-uppercase fw-bold text-white border rounded-0 border-2 border-white d-inline-block">in PLANUNG</span></div>
+                        <div class="our-project-foot position-absolute">
+                            <h4 class="text-capitalize text-white mb-0">Residenzstrasse 94</h4>
+                            <p class="fw-light text-white mb-0">Residential</p>
+                        </div>
+                    </div>
+                    <div class="our-project-item position-relative"><img src="assets/img/Rectangle%20806.png?h=6fec94bf9fed72202a82ef15fa7601ad">
+                        <div class="our-project-head position-absolute"><span class="text-uppercase fw-bold text-white border rounded-0 border-2 border-white d-inline-block">in PLANUNG</span></div>
+                        <div class="our-project-foot position-absolute">
+                            <h4 class="text-capitalize text-white mb-0">Warming Up Home</h4>
+                            <p class="fw-light text-white mb-0">Residential</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- End: projects section -->
+        <!-- Start: We buy real estate Section -->
+        <section id="real-estate">
+            <h1 class="text-uppercase fw-bold text-center text-white mb-4"><sub>Wir kaufen</sub>&nbsp;Immobilien</h1>
+            <p class="text-center text-white">Wir sind stets auf der Suche nach geeigneten Gewerbe- und Wohnimmobilien. Das Hauptaugenmerk liegt auf guten innerstädtischen und außerstädtischen Lagen mit Anbindung an den öffentlichen Nahverkehr. </p>
+            <h4 class="fw-normal text-center text-white mb-4">Bei Fragen stehen wir zur Seite:</h4>
+            <div class="text-center"><a class="btn btn-primary btn-lg border rounded-0 border-0 d-inline-flex me-5" role="button" href="#">Kontakt aufnehmen<img class="ms-3" src="assets/img/phone.svg?h=441726063c38c0e73fafc1485c941bb4"></a><a class="btn btn-light btn-lg border rounded-0 border-0" role="button">Firmenpräsentation</a></div>
+        </section><!-- End: We buy real estate Section -->
+        <!-- Start: Strong Partners Section -->
+        <section id="strong-partners">
+            <h1 class="text-uppercase fw-bold mb-4">Verstärkt durch starke Partner </h1>
+            <p>Unsere langjährigen Partner erlauben uns auf dem höchsten Standard der Qualität zu&nbsp;arbeiten.</p>
+            <div class="row g-0 row-cols-3 mx-auto" id="partners-cards">
+                <div class="col">
+                    <div class="partners-card-item"><img class="w-100" src="assets/img/Frame%20162.png?h=fa65ab33e50b7ae1b2112b0c271558d3"></div>
+                </div>
+                <div class="col">
+                    <div class="partners-card-item zoom"><img class="w-100" src="assets/img/Frame%20164.png?h=68213f3c301f9bf139dc7ced71751ce6"></div>
+                </div>
+                <div class="col">
+                    <div class="partners-card-item"><img class="w-100" src="assets/img/Frame%20163.png?h=0968f965c66711e1c6ed1bd2d084a068"></div>
+                </div>
+            </div>
+        </section><!-- End: Strong Partners Section -->
+        <!-- Start: News Section -->
+        <section id="home-news">
+            <h1 class="text-uppercase">Neuigkeiten </h1>
+            <div class="row" id="blog-large" style="margin-bottom: 80px;">
+                <div class="col-xl-7 col-xxl-8"><img class="w-100" src="assets/img/image%2021.jpg?h=a07abc7aef48f76306f32ede405cf0e6"></div>
+                <div class="col-xl-5 col-xxl-4">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#"><span>news</span></a></li>
+                        <li class="breadcrumb-item"><a href="#"><span><img src="assets/img/Group%201171276544.png?h=2fbb96d3d9f3383d5bd1c1547bf6e107" style="width: 20px;height: 20px;" class="me-2">16.09.2022</span></a></li>
+                    </ol>
+                    <h3 class="text-capitalize fw-bold mb-3">More Green space - Berlin reinickendorf</h3>
+                    <p class="text-capitalize">Quis ipsum ut lacus, quisque diam velit. Sagittis sit non ipsum euismod netus netus nunc sodales. Ac pretium quis hendrerit n...</p>
+                </div>
+            </div><!-- Start: Blog Thumbnails -->
+            <div class="row gy-xl-4 row-cols-3" id="blog-thumbnails">
+                <div class="col">
+                    <div class="card bg-white border-white"><img class="img-fluid card-img-top w-100 d-block border rounded-0" src="assets/img/thumbnail-1.jpg?h=5c54af237d051113a52f337c1da5a1e2">
+                        <div class="card-body px-0 py-4">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="#"><span>blog</span></a></li>
+                                <li class="breadcrumb-item"><a href="#"><span><img src="assets/img/Group%201171276544.png?h=2fbb96d3d9f3383d5bd1c1547bf6e107" style="width: 20px;height: 20px;" class="me-2">16.09.2022</span></a></li>
+                            </ol>
+                            <h4 class="text-capitalize fw-bold card-title mb-3">More Green space - Berlin reinickendorf</h4>
+                            <p class="text-capitalize card-text">Quis ipsum ut lacus, quisque diam velit. Sagittis sit non ipsum euismod netus netus nunc sodales. Ac pretium quis hendrerit n...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-white border-white"><img class="card-img-top w-100 d-block border rounded-0" src="assets/img/thumbnail-2.jpg?h=77b8ea15eab2b58bf3093ee2aaa4bc1f">
+                        <div class="card-body px-0 py-4">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="#"><span>blog</span></a></li>
+                                <li class="breadcrumb-item"><a href="#"><span><img src="assets/img/Group%201171276544.png?h=2fbb96d3d9f3383d5bd1c1547bf6e107" style="width: 20px;height: 20px;" class="me-2">16.09.2022</span></a></li>
+                            </ol>
+                            <h4 class="text-capitalize fw-bold card-title mb-3">More Green space - Berlin reinickendorf</h4>
+                            <p class="text-capitalize card-text">Quis ipsum ut lacus, quisque diam velit. Sagittis sit non ipsum euismod netus netus nunc sodales. Ac pretium quis hendrerit n...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-white border-white"><img class="img-fluid card-img-top w-100 d-block border rounded-0" src="assets/img/thumbnail-3.jpg?h=941595910dce7c66bc3745c6933ccab3">
+                        <div class="card-body px-0 py-4">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="#"><span>blog</span></a></li>
+                                <li class="breadcrumb-item"><a href="#"><span><img src="assets/img/Group%201171276544.png?h=2fbb96d3d9f3383d5bd1c1547bf6e107" style="width: 20px;height: 20px;" class="me-2">16.09.2022</span></a></li>
+                            </ol>
+                            <h4 class="text-capitalize fw-bold card-title mb-3">More Green space - Berlin reinickendorf</h4>
+                            <p class="text-capitalize card-text">Quis ipsum ut lacus, quisque diam velit. Sagittis sit non ipsum euismod netus netus nunc sodales. Ac pretium quis hendrerit n...</p>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- End: Blog Thumbnails -->
+        </section><!-- End: News Section -->
+        <!-- Start: Job offers -->
+        <section id="job-offers">
+            <div class="row g-0">
+                <div class="col-1 position-relative"><span class="bg-white text-1-rotate position-absolute">Stellenangebote</span></div>
+                <div class="col-11">
+                    <div class="card-container-5 position-relative"><img class="img-fluid card-container-img" src="assets/img/Rectangle%2010821.png?h=e0b73d8d93b2456e15c5055b37a576c0"><!-- Start: White Card -->
+                        <div class="bg-white shadow card-content position-absolute">
+                            <h1 class="text-capitalize fw-bold text-dark pb-0 mb-4">Wir freuen uns auf neue Talente und erfahrene Spezialisten. </h1>
+                            <div><a class="btn text-capitalize fw-bold border rounded-0 border-white d-inline-flex align-items-center" role="button" href="#">Unsere Stellen<img src="assets/img/Arrow%20right.svg?h=2c9d7a414c363a1ce14d045fa9a7ff3a" style="width: 24px;height: 24px;" class="ms-3"></a></div>
+                        </div><!-- End: White Card -->
+                    </div>
+                </div>
+            </div>
+        </section><!-- End: Job offers -->
+    </main><!-- End: Main Section -->
+    <!-- Start: Footer Section -->
+    <footer id="footer">
+        <div class="footer-widget">
+            <div class="mx-auto container-1548px">
+                <!-- Start: Footer Logo -->
+                <div style="margin-bottom: 100px;"><a class="btn border-0 site-logo p-0" role="button" href="#"><img src="assets/img/logo.svg?h=f530964dfd3fb427817f76e4e05bdab6"></a></div><!-- End: Footer Logo -->
+                <h4 class="text-uppercase text-white">KONTAKT</h4>
+                <div class="row row-cols-xl-2 row-cols-xxl-3">
+                    <div class="col">
+                        <div class="d-flex mb-3"><img src="assets/img/phone.svg?h=441726063c38c0e73fafc1485c941bb4" class="me-4"><!-- Start: Button Icon Theme --><a class="btn link-light border-0 d-inline-flex align-items-center btn-icon p-0" role="button" href="tel:+49 (0) 30 40 36 13 70">+49 (0) 30 40 36 13 70</a><!-- End: Button Icon Theme -->
+                        </div>
+                        <div class="d-flex mb-3"><img src="assets/img/sms.svg?h=a2dbe68b406a0a08056cba9171714291" class="me-4"><!-- Start: Button Icon Theme --><a class="btn link-light border-0 d-inline-flex align-items-center btn-icon p-0" role="button" href="mailto:info@berlinka-group.com" style="text-decoration: underline;">info@berlinka-group.com</a><!-- End: Button Icon Theme -->
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="d-flex mb-3"><img src="assets/img/Union.svg?h=661c27fffbb625933ba6907bb1465d6a" class="me-4"><!-- Start: Button Icon Theme --><a class="btn link-light border-0 d-inline-flex align-items-center btn-icon p-0" role="button" href="fax:+49 (0) 30 40 36 13 799">+49 (0) 30 40 36 13 799</a><!-- End: Button Icon Theme -->
+                        </div>
+                        <div class="d-flex mb-3"><img src="assets/img/world.svg?h=92255c28937672b7efd0f2524abe5936" class="me-4"><!-- Start: Button Icon Theme --><a class="btn link-light border-0 d-inline-flex align-items-center btn-icon p-0" role="button" href="www.berlinka-group.com">www.berlinka-group.com</a><!-- End: Button Icon Theme -->
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="d-flex align-items-start mb-3"><img src="assets/img/location.svg?h=66def411b34fbb829b35a28525e80614" class="me-4 mt-2">
+                            <p class="text-white">Berlinka Group<br>Landsberger Allee 366<br>12681 Berlin<br></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="mx-auto container-1548px">
+                <div class="row row-cols-xl-2 row-cols-xxl-3">
+                    <div class="col">
+                        <h4 class="text-uppercase text-white">MENÜ</h4>
+                        <div class="d-flex mb-3">
+                            <!-- Start: Button Icon Theme --><a class="btn text-capitalize link-light border-0 d-inline-flex align-items-center btn-icon p-0" role="button" href="#">Über Uns</a><!-- End: Button Icon Theme -->
+                        </div>
+                        <div class="d-flex mb-3">
+                            <!-- Start: Button Icon Theme --><a class="btn text-capitalize link-light border-0 d-inline-flex align-items-center btn-icon p-0" role="button" href="#">Kontakt</a><!-- End: Button Icon Theme -->
+                        </div>
+                        <div class="d-flex mb-3">
+                            <!-- Start: Button Icon Theme --><a class="btn text-capitalize link-light border-0 d-inline-flex align-items-center btn-icon p-0" role="button" href="#">Impressum</a><!-- End: Button Icon Theme -->
+                        </div>
+                    </div>
+                    <div class="col">
+                        <h4 class="text-uppercase text-white">Unternehmen</h4>
+                        <div class="d-flex mb-3">
+                            <!-- Start: Button Icon Theme --><a class="btn text-capitalize link-light border-0 d-inline-flex align-items-center btn-icon p-0" role="button" href="#">Projekte</a><!-- End: Button Icon Theme -->
+                        </div>
+                        <div class="d-flex mb-3">
+                            <!-- Start: Button Icon Theme --><a class="btn text-capitalize link-light border-0 d-inline-flex align-items-center btn-icon p-0" role="button" href="#">Ankaufsprofil</a><!-- End: Button Icon Theme -->
+                        </div>
+                        <div class="d-flex mb-3">
+                            <!-- Start: Button Icon Theme --><a class="btn text-capitalize link-light border-0 d-inline-flex align-items-center btn-icon p-0" role="button" href="#">Karriere</a><!-- End: Button Icon Theme -->
+                        </div>
+                    </div><!-- Start: Newsletter -->
+                    <div class="col">
+                        <h4 class="text-uppercase text-white">newsletter</h4>
+                        <form class="d-flex flex-column" method="post">
+                            <div class="mb-4"><input class="bg-white border rounded-0 form-control form-control-lg px-4" type="email" name="email" placeholder="Ihre E-Mail Adresse"></div>
+                            <div class="d-grid"><button class="btn btn-primary btn-lg border rounded-0 border-0" type="submit" style="padding: 20px;">Abonnieren </button></div>
+                        </form>
+                    </div><!-- End: Newsletter -->
+                </div>
+            </div>
+        </div><!-- Start: Footer Copyright -->
+        <div id="copyright">
+            <div class="container d-flex justify-content-between align-items-center">
+                <div>
+                    <p class="text-capitalize text-center text-white mb-0">Copyright Berlinka Group ©2022</p>
+                </div>
+                <div>
+                    <p class="text-capitalize text-center text-white mb-0">Datenschutz</p>
+                </div>
+            </div>
+        </div><!-- End: Footer Copyright -->
+    </footer><!-- End: Footer Section -->
+    <script src="assets/bootstrap/js/bootstrap.min.js?h=01bb7ae0c0b11509558f2aa83f244399"></script>
+    <script src="assets/js/script.min.js?h=bf133e346f89c1530f787b1403576b79"></script>
+</body>
+
+</html>
